@@ -1,0 +1,67 @@
+body{
+    background: #333333;
+    padding: 50px;
+    margin: 50px;
+}
+.flashlight{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin: auto;
+    bottom: 145px;
+}
+.upper{
+    background-color: #8c8c8c;
+    width: 180px;
+    height: 50px;
+}
+.lower{
+    width: 120px;
+    height: 0px;
+    border-top: 80px solid #595959;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+}
+.body_1{
+    width: 120px;
+    height: 300px;
+    left: 30px;
+    position: relative;
+    background-color: #7e8a97;
+    border-radius: 0px 0px 20px 20px;
+}
+#button{
+    width: 40px;
+    height: 40px;
+    background-color: #FFF;
+    position: relative;
+    left: 40px;
+    top: 60px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 3px #666;
+}
+#light{
+    width: 160px;
+    height: 0px;
+    border-top: 300px solid rgba(255,255,51,0.9);
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    position: relative;
+    bottom: 730px;
+    right: 60px;
+    visibility: hidden;
+}
+.L1,.L2{
+    background-color: #FFF;
+    width: 100%;
+    height: 15px;
+    position: relative;
+}
+.L1{
+    height: 22px;
+    top: 13px;
+}
+.L2{
+    top: 200px;
+}
